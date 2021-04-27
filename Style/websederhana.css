@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align:center
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+header {
+    height: 50px;
+    background: #000155;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo {
+    padding-right: 1%;
+    float: left;
+    line-height: 50px;
+    background-image: url(../IMG/Logo\ akhir.png);
+    z-index: 100;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodletitling;
+    color: #fff;
+    letter-spacing: 3px;
+    
+}
+nav {
+    float: right;
+    line-height: 50px;
+
+}
+nav a {
+    text-decoration: none;
+    font-family: bignoodletitling;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff; 
+    
+    
+}
+.banner-area {
+    width: 100%;
+    height: 900px;
+    position:sticky;
+    top: 50px;
+    background-image:url(./IMG/kimi\ no\ nawa\ edit.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+.banner-area h2 {
+    padding: 30px;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #fff; 
+}
+.content-area {
+    width: 100%;
+    position: relative;
+    background: #ddd;
+    height: 150px;
+}
+.content-area h2 {
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 50px;
+    font-size: 40px;
+    margin-bottom: 50px; 
+    text-transform: capitalize;
+}
+.content-area p {
+    padding: 5% 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+
+}
